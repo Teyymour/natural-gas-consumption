@@ -11,10 +11,10 @@ h1, h2 { line-height: 1.2; }
 h2 { font-size: clamp(25px, 3vw, 32px); font-weight: 600; margin: 0 0 24px; letter-spacing: -.5px; }
 .skip { position: absolute; left: 16px; top: -80px; z-index: 10; padding: 12px; background: white; }
 .skip:focus { top: 12px; }
-.hero { padding: 76px 0 62px; background: #18303d; color: #faf9f5; border-bottom: 4px solid #b76519; overflow: hidden; position: relative; }
-.hero .wrap { position: relative; z-index: 1; }
-.hero::after { content: ''; position: absolute; width: 340px; height: 340px; border: 1px solid #486572; border-radius: 50%; right: -110px; top: 70px; box-shadow: 0 0 0 35px #1c3745, 0 0 0 36px #486572; opacity: .6; }
-.hero-label { font-size: 14px; letter-spacing: 1.5px; color: #e6b878; margin-bottom: 24px; }
+.hero { padding: 92px 0 76px; background-color: #07141e; background-image: linear-gradient(90deg, rgba(5,18,29,.97) 0%, rgba(5,18,29,.9) 38%, rgba(5,18,29,.25) 75%), url("assets/gas-flames.jpg"); background-size: cover, auto 135%; background-repeat: no-repeat; background-position: center, right center; color: #faf9f5; border-bottom: 4px solid #328dc4; position: relative; }
+.hero .wrap { position: relative; }
+.hero h1 { max-width: 670px; }
+.hero-label { font-size: 14px; letter-spacing: 1.5px; color: #85cef4; margin-bottom: 24px; }
 h1 { max-width: 800px; font-size: clamp(38px, 5.5vw, 62px); font-weight: 500; letter-spacing: -1.8px; margin: 0 0 24px; }
 .dek { font-size: 21px; margin-bottom: 32px; }
 .byline { font-size: 14px; color: #c6d3d9; }
@@ -25,7 +25,7 @@ figure { margin: 38px 0 34px; }
 figure a { display: block; }
 img { display: block; width: 100%; height: auto; }
 .reading-note { font-size: 14px; line-height: 1.65; color: #536570; }
-.takeaway { background: #edece5; padding-block: 64px; border-block: 1px solid #d8dedb; }
+.takeaway { background: #eaf0f2; padding-block: 64px; border-block: 1px solid #d8dedb; }
 .takeaway h2 { max-width: 600px; }
 .sources { padding-block: 52px; }
 .sources h2 { font-size: 22px; }
@@ -43,3 +43,6 @@ footer { display: flex; justify-content: space-between; gap: 24px; padding-block
 }
 @media(prefers-reduced-motion:reduce) { html { scroll-behavior: auto; } }
 @media print { .hero { background: none; color: #18303d; } .hero::after { display: none; } .hero-label,.byline { color: #536570; } }
+
+.photo-credit { font-size: 13px; color: #536570; margin-top: 28px; }
+@media(max-width:600px) { .hero { background-image: linear-gradient(90deg, rgba(5,18,29,.94), rgba(5,18,29,.65)), url("assets/gas-flames.jpg"); background-position: center, 65% center; } }
