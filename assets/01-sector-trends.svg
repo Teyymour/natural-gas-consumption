@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' class='svglite' width='792.00pt' height='432.00pt' viewBox='0 0 792.00 432.00'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #FAF9F5;'/>
+<defs>
+  <clipPath id='cpMC4wMHw3OTIuMDB8MC4wMHw0MzIuMDA='>
+    <rect x='0.00' y='0.00' width='792.00' height='432.00' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHw3OTIuMDB8MC4wMHw0MzIuMDA=)'>
+<rect x='0.000000000000064' y='0.00' width='792.00' height='432.00' style='stroke-width: 1.26; stroke: none; fill: #FAF9F5;' />
+<rect x='45.90' y='73.47' width='721.20' height='313.07' style='stroke-width: 1.26; stroke: none; fill: #FAF9F5;' />
+<polyline points='45.90,372.31 767.09,372.31 ' style='stroke-width: 1.26; stroke: #DFE3DF; stroke-linecap: butt;' />
+<polyline points='45.90,304.55 767.09,304.55 ' style='stroke-width: 1.26; stroke: #DFE3DF; stroke-linecap: butt;' />
+<polyline points='45.90,236.78 767.09,236.78 ' style='stroke-width: 1.26; stroke: #DFE3DF; stroke-linecap: butt;' />
+<polyline points='45.90,169.02 767.09,169.02 ' style='stroke-width: 1.26; stroke: #DFE3DF; stroke-linecap: butt;' />
+<polyline points='45.90,101.26 767.09,101.26 ' style='stroke-width: 1.26; stroke: #DFE3DF; stroke-linecap: butt;' />
+<polyline points='78.68,316.19 101.29,313.94 123.90,313.28 146.50,314.38 169.11,316.64 191.72,319.73 214.33,316.38 236.94,313.94 259.54,314.41 282.15,314.71 304.76,313.73 327.37,318.71 349.98,311.13 372.58,307.96 395.19,312.87 417.80,314.74 440.41,313.56 463.02,307.07 485.62,307.06 508.23,313.76 530.84,311.25 553.45,307.14 576.06,310.47 598.66,310.88 621.27,305.37 ' style='stroke-width: 2.45; stroke: #8E668A; stroke-linecap: butt;' />
+<polyline points='78.68,273.13 101.29,267.01 123.90,276.97 146.50,271.15 169.11,263.35 191.72,256.80 214.33,245.30 236.94,248.85 259.54,244.72 282.15,235.17 304.76,231.70 327.37,203.63 349.98,220.25 372.58,221.08 395.19,193.84 417.80,187.44 440.41,200.29 463.02,175.72 485.62,162.74 508.23,156.95 530.84,163.85 553.45,147.83 576.06,132.06 598.66,122.80 621.27,129.80 ' style='stroke-width: 2.45; stroke: #B76519; stroke-linecap: butt;' />
+<polyline points='78.68,235.96 101.29,232.57 123.90,239.56 146.50,237.96 169.11,249.76 191.72,251.14 214.33,248.76 236.94,248.82 259.54,257.81 282.15,245.58 304.76,242.46 327.37,238.52 349.98,234.46 372.58,230.36 395.19,232.66 417.80,229.22 440.41,224.85 463.02,216.04 485.62,216.05 508.23,220.25 530.84,216.83 553.45,213.97 576.06,213.53 598.66,213.46 621.27,212.16 ' style='stroke-width: 2.45; stroke: #536C57; stroke-linecap: butt;' />
+<polyline points='78.68,283.73 101.29,281.55 123.90,278.01 146.50,282.17 169.11,282.70 191.72,291.21 214.33,284.64 236.94,281.73 259.54,283.59 282.15,283.52 304.76,284.80 327.37,295.49 349.98,281.39 372.58,277.86 395.19,286.67 417.80,291.84 440.41,290.38 463.02,279.53 485.62,279.14 508.23,285.77 530.84,284.75 553.45,280.15 576.06,288.32 598.66,291.05 621.27,282.41 ' style='stroke-width: 2.45; stroke: #24799A; stroke-linecap: butt;' />
+<circle cx='621.27' cy='305.37' r='3.09' style='stroke-width: 0.84; stroke: #8E668A; fill: #8E668A;' />
+<circle cx='621.27' cy='129.80' r='3.09' style='stroke-width: 0.84; stroke: #B76519; fill: #B76519;' />
+<circle cx='621.27' cy='212.16' r='3.09' style='stroke-width: 0.84; stroke: #536C57; fill: #536C57;' />
+<circle cx='621.27' cy='282.41' r='3.09' style='stroke-width: 0.84; stroke: #24799A; fill: #24799A;' />
+<text x='634.84' y='309.14' style='font-size: 10.53px;fill: #8E668A; font-family: "Arial";' textLength='56.08px' lengthAdjust='spacingAndGlyphs'>Commercial</text>
+<text x='634.84' y='133.57' style='font-size: 10.53px;fill: #B76519; font-family: "Arial";' textLength='66.02px' lengthAdjust='spacingAndGlyphs'>Electric power</text>
+<text x='634.84' y='215.94' style='font-size: 10.53px;fill: #536C57; font-family: "Arial";' textLength='42.65px' lengthAdjust='spacingAndGlyphs'>Industrial</text>
+<text x='634.84' y='286.18' style='font-size: 10.53px;fill: #24799A; font-family: "Arial";' textLength='52.01px' lengthAdjust='spacingAndGlyphs'>Residential</text>
+<text x='40.07' y='376.04' text-anchor='end' style='font-size: 10.40px;fill: #52616A; font-family: "Arial";' textLength='5.78px' lengthAdjust='spacingAndGlyphs'>0</text>
+<text x='40.07' y='308.28' text-anchor='end' style='font-size: 10.40px;fill: #52616A; font-family: "Arial";' textLength='11.56px' lengthAdjust='spacingAndGlyphs'>10</text>
+<text x='40.07' y='240.51' text-anchor='end' style='font-size: 10.40px;fill: #52616A; font-family: "Arial";' textLength='11.56px' lengthAdjust='spacingAndGlyphs'>20</text>
+<text x='40.07' y='172.75' text-anchor='end' style='font-size: 10.40px;fill: #52616A; font-family: "Arial";' textLength='11.56px' lengthAdjust='spacingAndGlyphs'>30</text>
+<text x='40.07' y='104.99' text-anchor='end' style='font-size: 10.40px;fill: #52616A; font-family: "Arial";' textLength='11.56px' lengthAdjust='spacingAndGlyphs'>40</text>
+<text x='78.68' y='399.83' text-anchor='middle' style='font-size: 10.40px;fill: #52616A; font-family: "Arial";' textLength='23.13px' lengthAdjust='spacingAndGlyphs'>2001</text>
+<text x='169.11' y='399.83' text-anchor='middle' style='font-size: 10.40px;fill: #52616A; font-family: "Arial";' textLength='23.13px' lengthAdjust='spacingAndGlyphs'>2005</text>
+<text x='282.15' y='399.83' text-anchor='middle' style='font-size: 10.40px;fill: #52616A; font-family: "Arial";' textLength='23.13px' lengthAdjust='spacingAndGlyphs'>2010</text>
+<text x='395.19' y='399.83' text-anchor='middle' style='font-size: 10.40px;fill: #52616A; font-family: "Arial";' textLength='23.13px' lengthAdjust='spacingAndGlyphs'>2015</text>
+<text x='508.23' y='399.83' text-anchor='middle' style='font-size: 10.40px;fill: #52616A; font-family: "Arial";' textLength='23.13px' lengthAdjust='spacingAndGlyphs'>2020</text>
+<text x='621.27' y='399.83' text-anchor='middle' style='font-size: 10.40px;fill: #52616A; font-family: "Arial";' textLength='23.13px' lengthAdjust='spacingAndGlyphs'>2025</text>
+<text transform='translate(22.84,230.01) rotate(-90)' text-anchor='middle' style='font-size: 11.00px;fill: #18303D; font-family: "Arial";' textLength='166.29px' lengthAdjust='spacingAndGlyphs'>Billion cubic feet per day (Bcf/day)</text>
+<text x='45.90' y='52.89' style='font-size: 12.00px;fill: #18303D; font-family: "Arial";' textLength='295.50px' lengthAdjust='spacingAndGlyphs'>U.S. annual average natural gas consumption by sector</text>
+<text x='45.90' y='33.60' style='font-size: 19.00px; font-weight: bold;fill: #18303D; font-family: "Arial";' textLength='362.21px' lengthAdjust='spacingAndGlyphs'>Electricity has changed the demand mix</text>
+<text x='45.90' y='415.06' style='font-size: 9.00px;fill: #18303D; font-family: "Arial";' textLength='214.54px' lengthAdjust='spacingAndGlyphs'>Source: U.S. Energy Information Administration (EIA).</text>
+</g>
+</svg>

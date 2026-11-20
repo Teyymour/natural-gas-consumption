@@ -1,0 +1,45 @@
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: #faf9f5; color: #18303d; font: 17px/1.75 Arial, sans-serif; }
+a { color: #246d89; text-underline-offset: 4px; }
+a:focus-visible { outline: 2px solid #b76519; outline-offset: 5px; }
+.wrap { width: min(100%, 1080px); padding-inline: 32px; margin-inline: auto; }
+.prose { max-width: 740px; margin-inline: auto; }
+p { margin: 0 0 22px; }
+p:last-child { margin-bottom: 0; }
+h1, h2 { line-height: 1.2; }
+h2 { font-size: clamp(25px, 3vw, 32px); font-weight: 600; margin: 0 0 24px; letter-spacing: -.5px; }
+.skip { position: absolute; left: 16px; top: -80px; z-index: 10; padding: 12px; background: white; }
+.skip:focus { top: 12px; }
+.hero { padding: 76px 0 62px; background: #18303d; color: #faf9f5; border-bottom: 4px solid #b76519; overflow: hidden; position: relative; }
+.hero .wrap { position: relative; z-index: 1; }
+.hero::after { content: ''; position: absolute; width: 340px; height: 340px; border: 1px solid #486572; border-radius: 50%; right: -110px; top: 70px; box-shadow: 0 0 0 35px #1c3745, 0 0 0 36px #486572; opacity: .6; }
+.hero-label { font-size: 14px; letter-spacing: 1.5px; color: #e6b878; margin-bottom: 24px; }
+h1 { max-width: 800px; font-size: clamp(38px, 5.5vw, 62px); font-weight: 500; letter-spacing: -1.8px; margin: 0 0 24px; }
+.dek { font-size: 21px; margin-bottom: 32px; }
+.byline { font-size: 14px; color: #c6d3d9; }
+.byline span { margin-left: 16px; }
+.intro { padding-block: 68px; }
+.chapter { padding-block: 64px; border-top: 1px solid #d8dedb; }
+figure { margin: 38px 0 34px; }
+figure a { display: block; }
+img { display: block; width: 100%; height: auto; }
+.reading-note { font-size: 14px; line-height: 1.65; color: #536570; }
+.takeaway { background: #edece5; padding-block: 64px; border-block: 1px solid #d8dedb; }
+.takeaway h2 { max-width: 600px; }
+.sources { padding-block: 52px; }
+.sources h2 { font-size: 22px; }
+.sources ul { padding-left: 20px; font-size: 15px; }
+.sources li { margin-bottom: 12px; }
+footer { display: flex; justify-content: space-between; gap: 24px; padding-block: 24px; border-top: 1px solid #d8dedb; font-size: 13px; color: #536570; }
+@media(max-width:600px) {
+ .wrap { padding-inline: 20px; }
+ .hero { padding-block: 52px 42px; }
+ .hero::after { opacity: .3; }
+ .byline span { display: block; margin-left: 0; margin-top: 4px; }
+ .intro, .chapter, .takeaway { padding-block: 44px; }
+ figure { margin-block: 28px; }
+ h1 { letter-spacing: -1px; }
+}
+@media(prefers-reduced-motion:reduce) { html { scroll-behavior: auto; } }
+@media print { .hero { background: none; color: #18303d; } .hero::after { display: none; } .hero-label,.byline { color: #536570; } }

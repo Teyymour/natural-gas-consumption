@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="U.S. natural gas consumption by sector, season, and state, 2001 to 2025.">
+<title>U.S. Natural Gas Consumption | Teymour Davoudi</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#story">Skip to the story</a>
+<header class="hero"><div class="wrap">
+<p class="hero-label">2001 to 2025</p>
+<h1>U.S. Natural Gas Consumption</h1>
+<p class="dek">By sector, season, and state.</p>
+<p class="byline">Teymour Davoudi <span>DSCI 304 · Professor Perry</span></p>
+</div></header>
+<main>
+<section class="intro wrap"><div class="prose">
+<h2>How has electricity changed natural gas demand?</h2>
+<p>I follow natural gas markets and wanted to understand how growing gas use for electricity has changed seasonal demand. Homes and businesses use gas directly, while power plants burn it to generate electricity. Those uses peak at different times of year, so the mix of consumers helps determine the seasonal pattern.</p>
+<p>This project uses monthly data from the U.S. Energy Information Administration (EIA) to follow residential, commercial, industrial, and electric power consumption from 2001 to 2025. It connects the sectors' long-term trends with their monthly patterns, then looks at state differences and the changing share used for electricity.</p>
+<p class="reading-note">Consumption is measured in billion cubic feet per day (Bcf/day), which adjusts for differences in month length. Combined totals cover these four sectors.</p>
+</div></section>
+<section id="story" class="chapter wrap">
+<div class="prose"><h2>Electricity drives the growth in gas use</h2><p>Gas use by power plants rose from an average of <strong>15.1 to 34.4 Bcf/day</strong> between 2001 to 2005 and 2021 to 2025. Residential use stayed close to 13 Bcf/day. The annual series shows how that change developed over the full 25 years.</p></div>
+<figure><a href="assets/01-sector-trends.svg" aria-label="Open sector trend chart at full size"><img src="assets/01-sector-trends.svg" width="1100" height="600" alt="Annual gas consumption from 2001 through 2025. Electric power rises strongly, industrial rises modestly, and residential and commercial remain relatively stable."></a></figure>
+<div class="prose after-chart"><p>Industrial consumption also increased, while residential and commercial use changed much less. Power plants became a larger source of demand through several periods of growth, with occasional declines, including in 2025. That shift raises a seasonal question: as electricity accounts for more gas use, when during the year is that gas needed?</p></div>
+</section>
+<section id="monthly" class="chapter wrap">
+<div class="prose"><h2>How demand changes by month</h2><p>Homes and businesses use the most gas in winter. Power plants follow a different pattern, with their highest consumption in summer. Comparing the same months across the early and recent five-year periods shows how each sector contributed to the change.</p></div>
+<figure><a href="assets/02-seasonal-patterns.svg" aria-label="Open monthly patterns chart at full size"><img src="assets/02-seasonal-patterns.svg" width="1100" height="700" alt="Paired dot plots compare monthly consumption in 2001–2005 and 2021–2025 in four sector panels. Residential and commercial have winter peaks; electricity has a much larger summer peak in the recent period."></a></figure>
+<div class="prose after-chart"><p>The largest increases appear in electric power. Its recent-period dots are higher throughout the year, and the summer peak is especially pronounced. Residential demand retains its familiar winter shape. These different patterns matter when the sectors are combined: growth in power consumption adds substantial demand during months when heating use is low.</p></div>
+</section>
+<section id="seasons" class="chapter wrap">
+<div class="prose"><h2>Summer grows relative to winter</h2><p>Summer consumption across the four sectors increased from <strong>47.6 to 74.0 Bcf/day</strong> between the early and recent periods. The bars below follow both seasons through every year from 2001 to 2025.</p></div>
+<figure><a href="assets/03-winter-summer.svg" aria-label="Open winter and summer chart at full size"><img src="assets/03-winter-summer.svg" width="1100" height="600" alt="Grouped bars compare winter and summer consumption for every year from 2001 to 2025. Both increase, summer gains in relative terms, and winter is larger in every year."></a></figure>
+<div class="prose after-chart"><p>Summer use grew from about 63% to 74% of winter use between those periods. Winter remained the larger season in every year, with both seasons reaching higher levels toward the end of the series. For someone following gas demand, the change gives summer electricity use a greater role alongside the established winter heating peak.</p><p class="reading-note">Summer covers June, July, and August. Winter combines January, February, and December of the same calendar year.</p></div>
+</section>
+<section id="geography" class="chapter wrap">
+<div class="prose"><h2>The summer peak varies by state</h2><p>The national increase in power-sector consumption leads to another question: how widely is its summer peak shared? This map compares average daily summer and winter gas use by power plants in each state during 2021 to 2025.</p></div>
+<figure><a href="assets/04-state-seasonality.svg" aria-label="Open state map at full size"><img src="assets/04-state-seasonality.svg" width="1100" height="700" alt="Choropleth map of contiguous states showing the ratio of summer to winter power-sector gas use. Texas is 1.58, Florida 1.48, Arizona 1.67 and Oregon 0.88. Nebraska and Vermont are unavailable."></a></figure>
+<div class="prose after-chart"><p>Texas used <strong>1.58 times</strong> as much gas per day for electricity in summer as in winter. Oregon had a ratio of <strong>0.88</strong>, with higher consumption in winter. Each ratio measures the seasonal balance within that state. These differences show how the national pattern brings together power markets with different seasonal demand.</p><p class="reading-note">Values above 1 indicate a summer peak; values below 1 indicate a winter peak. Nebraska and Vermont are gray because seasonal observations are missing.</p></div>
+</section>
+<section id="mix" class="chapter wrap">
+<div class="prose"><h2>More gas goes to electricity</h2><p>The change in the national consumption mix brings these comparisons together. Electricity's share of gas use across the four sectors rose from <strong>26.6% to 43.0%</strong>. Each flame represents one percentage point, rounded to the nearest whole percent.</p></div>
+<figure><a href="assets/05-demand-mix.svg" aria-label="Open gas demand pictogram at full size"><img src="assets/05-demand-mix.svg" width="1100" height="730" alt="Two 100-flame pictograms. 27 flames are orange for electric power in 2001–2005 and 43 in 2021–2025. Exact shares to one decimal are 26.6 and 43.0 percent."></a></figure>
+<div class="prose after-chart"><p>About 27 of every 100 units of gas went to electricity in the early period, compared with 43 in the recent period. The line chart showed the growth behind that shift; the monthly and seasonal comparisons showed when it matters. The map adds the regional detail: the strength of the summer peak varies across states.</p></div>
+</section>
+<section class="takeaway"><div class="wrap"><div class="prose">
+<h2>Winter still leads. Summer matters more.</h2>
+<p>Power-sector growth has changed the mix and seasonality of U.S. natural gas consumption. Winter remains the largest demand season, while summer has grown relative to winter as electricity takes a larger share of gas use. Understanding that shift means following both heating demand and the power sector, with attention to how their seasonal patterns vary across states.</p>
+</div></div></section>
+<section class="sources wrap"><div class="prose"><h2>Original public sources</h2>
+<ul>
+<li><a href="https://www.eia.gov/dnav/ng/ng_cons_sum_dcu_nus_m.htm">EIA: Natural Gas Consumption by End Use</a></li>
+<li>National monthly histories: <a href="https://www.eia.gov/dnav/ng/hist/n3010us2m.htm">residential</a>, <a href="https://www.eia.gov/dnav/ng/hist/n3020us2m.htm">commercial</a>, <a href="https://www.eia.gov/dnav/ng/hist/n3035us2m.htm">industrial</a>, and <a href="https://www.eia.gov/dnav/ng/hist/n3045us2m.htm">electric power</a>.</li>
+<li>State power-sector histories: <a href="https://www.eia.gov/dnav/ng/hist/n3045tx2m.htm">Texas</a> and <a href="https://www.eia.gov/dnav/ng/hist/n3045or2m.htm">Oregon</a>. EIA's state selector provides the other states.</li>
+<li><a href="https://www.eia.gov/dnav/ng/TblDefs/ng_cons_sum_tbldef2.asp">EIA definitions and notes</a></li>
+</ul></div></section>
+</main>
+<footer class="wrap"><span>Teymour Davoudi · DSCI 304</span><a href="#">Back to top</a></footer>
+</body></html>
