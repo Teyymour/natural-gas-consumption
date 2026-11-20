@@ -12,7 +12,7 @@ h2 { font-size: clamp(25px, 3vw, 32px); font-weight: 600; margin: 0 0 24px; lett
 .skip { position: absolute; left: 16px; top: -80px; z-index: 10; padding: 12px; background: white; }
 .skip:focus { top: 12px; }
 .hero { padding: 92px 0 76px; background-color: #07141e; background-image: linear-gradient(90deg, rgba(5,18,29,.97) 0%, rgba(5,18,29,.9) 38%, rgba(5,18,29,.25) 75%), url("assets/gas-flames.jpg"); background-size: cover, auto 135%; background-repeat: no-repeat; background-position: center, right center; color: #faf9f5; border-bottom: 4px solid #328dc4; position: relative; }
-.hero .wrap { position: relative; }
+.hero .wrap { position: relative; max-width: 804px; }
 .hero h1 { max-width: 670px; }
 .hero-label { font-size: 14px; letter-spacing: 1.5px; color: #85cef4; margin-bottom: 24px; }
 h1 { max-width: 800px; font-size: clamp(38px, 5.5vw, 62px); font-weight: 500; letter-spacing: -1.8px; margin: 0 0 24px; }
